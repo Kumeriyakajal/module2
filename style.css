@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background: #111111;
+    font-family: Inter;
+    color: #FFFFFF; 
+    margin-top: 17px;
+    margin-left: 20px;
+} 
+h1{
+    width: 640px;
+    height: 45px;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 82px;
+    letter-spacing: 0em;
+    margin-left: 12px; 
+}
+input{
+    width: 424px;
+    height: 35px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 12px;
+    padding-left: 20px;
+}
+#submitButton{
+    margin: 14px 0px 55px 12px;
+    width: 501px;
+    height: 35px;
+}
+#searchInput{
+    width: 1335px;
+    margin-bottom: 45px;
+}
+table{
+    width: 1357px;
+    height: 300px;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #FFFFFF;
+} 
+tr, td{
+    padding: 5px 0px 12px 0px;
+}
+#studentTableBody{
+    padding: 3px !important;
+}
+.edit-icon {
+    background: url(edit\ 1.png) center center no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+}
+.delete-icon {
+    background: url(trash-2\ 1.png) center center no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+}
+.edit-icon, .delete-icon {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+  
